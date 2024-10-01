@@ -1,0 +1,12 @@
+{
+    "name": "weather-dashboard",
+    "version": "1.0.0",
+    "description": "A simple weather dashboard",
+    "main": "index.html",
+    "dependencies": {
+        "http-server": "^0.12.3"
+    },
+    "scripts": {
+        "start": "http-server -p 8080"
+    }
+}

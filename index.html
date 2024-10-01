@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WeatherWatch</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <h1>WeatherWatch </h1>
+        <div class="search-container">
+            <input type="text" id="cityInput" placeholder="Enter city" />
+            <button id="searchBtn">Search</button>
+        </div>
+    </header>
+
+    <main>
+        <div id="weatherDisplay" class="weather-info">
+            <h2 id="cityName">City Name</h2>
+            <p id="temperature">Temperature: --°C</p>
+            <p id="description">Weather: --</p>
+            <p id="humidity">Humidity: --%</p>
+        </div>
+    </main>
+
+    <footer>
+        <p>Powered by <a href="https://openweathermap.org/">OpenWeatherMap API</a></p>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
